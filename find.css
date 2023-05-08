@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
-@import url('/css/mediaquery.css');
+@import url('mediaquery.css');
 *{
   margin: 0;
   padding: 0;
@@ -59,87 +59,78 @@ body{
   overflow-y: scroll;
   height: 110vh;
 }
-/* profile about me */
-.profile-about-me{
+/* qr */
+.qr{
+  margin: 20px 30px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  margin: 25px 20px;
-  padding-bottom: 15px;
-  /* border-bottom: 1px solid rgba(142, 184, 252, 0.397); */
-  }
-.profile-about-me img{
-  width: 4em;
-  border-radius: 25px;
-  margin-right: 15px;
 }
-.profile-about-me p:first-child{
-  font-size: 18px;
-  font-weight: 600;
-  color: rgb(0, 44, 114);
-}
-.profile-about-me p:nth-of-type(2){
-  font-size: 14px;
-  padding-top: 5px;
-  color: rgb(150, 150, 150);
-}
-.profile-about-me p:nth-of-type(2) i{
-  color: rgba(255, 0, 0, 0.656);
-}
-/* other-icon */
-.other{
-  margin: 0 20px;
-  height: 15em;
-  border-bottom: 1px solid rgba(142, 184, 252, 0.397);
+.qr div{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  color: rgb(0, 44, 114);
+  font-weight: 600;
 }
-.other div{
+.qr div i{
+  font-size: x-large;
+  padding-bottom: 20px;
+}
+/* recommended friends */
+.recommended-friends{
+  width: 96%;
+  height: 20em;
+  color: rgb(0, 44, 114);
+  margin: 0 10px;
+  padding: 10px;
+  border-top: 1px solid rgba(142, 184, 252, 0.397);
+  border-bottom: 1px solid rgba(142, 184, 252, 0.397);
+}
+.recommended-friends p:first-child{
+  font-size: 14px;
+}
+.recommended-friends p:nth-of-type(2){
+  padding: 7em;
+}
+/* open chat */
+.open-chat{
+  margin: 15px 20px;
+  font-size: 14px;
+}
+.open-chat-text{
   display: flex;
+  justify-content: space-between;
+  color: rgb(0, 44, 114);
 }
-.other > div:nth-of-type(2){
+.open-chat-box{
   margin-top: 20px;
 }
-.Icon{
-  margin: 0 25px 10px;
+.open-chat-list{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  color: rgb(0, 44, 114);
+  padding: 10px 10px;
+  border-bottom: 1px solid rgba(142, 184, 252, 0.397);
 }
-.Icon i{
-  font-size: 35px;
-  margin: 13px;
+.open-chat-box img{
+  width: 5em;
+  height: 5em;
+  border-radius: 7px;
 }
-
-/* suggestions */
-.suggestions{
-  margin: 20px;
+.open-chat-list-text p:first-child{
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
 }
-.suggestions p{
-  color: rgb(0, 44, 114);
+.open-chat-list-text p{
+  padding-bottom: 2px;
+  font-size: 14px;
+  color: rgb(150, 150, 150);
 }
-.link-another{
-  display: flex;
-
-}
-.box div{
-  margin: 20px 30px 10px 30px;
-  width: 4em;
-  height: 4em;
-  background-color: rgba(0, 44, 114, 0.541);
-  border-radius: 10px;
-}
-.box div i{
-  color: rgb(255, 255, 255);
-  position: absolute;
-}
-.box{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.open-chat-list-text p span{
+  font-size: 14px;
+  color: rgba(255, 0, 0, 0.785);
 }
 /* 하단 상태바  */
 .foot-nav{

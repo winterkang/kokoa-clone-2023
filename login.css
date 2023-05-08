@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
-@import url('/css/mediaquery.css');
+@import url('mediaquery.css');
 body{
   background-color: rgba(142, 184, 252, 0.177);
   font-family: 'Coming Soon', cursive;
